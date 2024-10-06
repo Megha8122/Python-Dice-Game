@@ -17,6 +17,7 @@ while True:
     
     if user_choice not in choices:
         print("Invalid Choice")
+        continue
     
     computer_choice = random.choice(choices)
     
